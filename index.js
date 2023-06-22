@@ -9,7 +9,7 @@
 
  // primeiro parameto o  endereço raiz
  app.get('/', function(request, response ){
-    response.json({message: 'salve!!!'})
+    response.json({message: 'hello word'})
  })
 
  app.listen(3000,() => console.log('rodando na porta 3000') )
